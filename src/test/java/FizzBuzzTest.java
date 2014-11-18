@@ -20,6 +20,11 @@ public class FizzBuzzTest {
             assertFalse(fizzbuzz.isDivisibleByThree(1));
     }
 
-
+    @Test
+    public void
+        isDivisibleByFive() {
+            FizzBuzz fizzbuzz = new FizzBuzz ();
+            assertTrue(fizzbuzz.isDivisibleByFive(5));
+    }
 
 }
