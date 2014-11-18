@@ -7,6 +7,6 @@ public class FizzBuzz {
     }
 
     public boolean isDivisibleByFive(int number) {
-        return true;
+        return number % 5 == 0;
     }
 }
